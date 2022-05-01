@@ -6,6 +6,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="/images/favicon.ico" />
         <title>Bruno Lopes - Homepage</title>
       </Head>
 
