@@ -1,4 +1,4 @@
-import { Container, Box, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumb2b from '../public/images/2b.png'
@@ -51,6 +51,21 @@ const Works = () => {
               thumbnail={thumbPrivate}
             >
               Projeto de website para escola de cursos pré-vestibular.
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.4}>
+            <WorkGridItem
+              id="venture"
+              title="Venture Labs"
+              thumbnail={thumbVenture}
+            >
+              Projeto de website para realizar cadastro e listar usuarios,
+              utilizando um formulário com multiplos passos.
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.4}>
+            <WorkGridItem id="think4" title="Think4" thumbnail={thumbThink4}>
+              Landing page.
             </WorkGridItem>
           </Section>
         </SimpleGrid>

@@ -7,7 +7,6 @@ import {
   Link,
   useColorModeValue,
   Button,
-  SimpleGrid,
   List,
   ListItem
 } from '@chakra-ui/react'
@@ -16,7 +15,6 @@ import Paragraph from '../components/paragraph'
 import Section from '../components/section'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
-import { GridItem } from '../components/grid-item'
 import { IoLogoGithub, IoLogoLinkedin, IoMailOutline } from 'react-icons/io5'
 
 const Page = () => {
