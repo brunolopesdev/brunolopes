@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import styled from '@emotion/styled'
 import { Text, useColorModeValue } from '@chakra-ui/react'
 import { CodeSimple } from 'phosphor-react'
@@ -22,13 +21,10 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
-
   return (
     <Link href="/">
       <a>
         <LogoBox>
-          {/* <Image src={footPrintImg} width={20} height={20} alt="logo" /> */}
           <CodeSimple size={32} weight="duotone" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}

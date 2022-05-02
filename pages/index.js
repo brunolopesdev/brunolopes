@@ -1,4 +1,4 @@
-import { ChevronRightIcon, Icon } from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import {
   Container,
   Box,
@@ -16,7 +16,6 @@ import Section from '../components/section'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import { LinkedinLogo, GithubLogo, Envelope } from 'phosphor-react'
-import { IoLogoGithub, IoLogoLinkedin, IoMailOutline } from 'react-icons/io5'
 
 const Page = () => {
   return (
