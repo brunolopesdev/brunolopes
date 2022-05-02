@@ -15,6 +15,7 @@ import Paragraph from '../components/paragraph'
 import Section from '../components/section'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
+import { LinkedinLogo, GithubLogo, Envelope } from 'phosphor-react'
 import { IoLogoGithub, IoLogoLinkedin, IoMailOutline } from 'react-icons/io5'
 
 const Page = () => {
@@ -62,14 +63,14 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Sou um Desenvolvedor Front-end que adora o que faz, estou sempre
-            disposto a novos desafios e constantemente me desafiando para
-            aprimorar meus conhecimentos.
+            I'm a Front-end Developer who loves what I do, I'm always up for new
+            challenges and constantly challenging myself to improve my
+            knowledge.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                Meu portfólio
+                My portfolio
               </Button>
             </NextLink>
           </Box>
@@ -80,20 +81,20 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>1994</BioYear>
-            Nascido em São Paulo, Brasil.
+            Born in São Paulo, Brazil.
           </BioSection>
           <BioSection>
             <BioYear>2012</BioYear>
-            Começou o interesse pela técnologia.
+            Interest in technology began.
           </BioSection>
           <BioSection>
-            <BioYear>2020</BioYear>
-            Comecei os estudos na graduação de Análise e Desenvolvimento de
-            Sistemas e Desenvolvimento Web Full Stack, pela Digital House.
+            <BioYear>2020</BioYear>I started my studies in the Analysis and
+            Development of Systems and Full Stack Web Development, by Digital
+            House Brazil.
           </BioSection>
           <BioSection>
-            <BioYear>2021 até o momento</BioYear>
-            Atuando como Desenvolvedor Front-end.
+            <BioYear>2021 to the moment</BioYear>
+            Working as a Front End Developer.
           </BioSection>
         </Section>
 
@@ -102,12 +103,12 @@ const Page = () => {
             I ♥
           </Heading>
           <Paragraph>
-            Jogos, Músicas, Séries, e aprender novas tecnologias.
+            Games, Music, TV Shows, and learning new technologies.
           </Paragraph>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            Contatos
+            Contact
           </Heading>
           <List>
             <ListItem>
@@ -115,7 +116,7 @@ const Page = () => {
                 <Button
                   variant="ghost"
                   colorScheme="teal"
-                  leftIcon={<Icon as={IoLogoGithub} />}
+                  leftIcon={<GithubLogo size={30} weight="light" />}
                 >
                   @brunolopesdev
                 </Button>
@@ -129,7 +130,7 @@ const Page = () => {
                 <Button
                   variant="ghost"
                   colorScheme="teal"
-                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                  leftIcon={<LinkedinLogo size={30} weight="light" />}
                 >
                   Bruno Lopes
                 </Button>
@@ -140,7 +141,7 @@ const Page = () => {
                 <Button
                   variant="ghost"
                   colorScheme="teal"
-                  leftIcon={<Icon as={IoMailOutline} />}
+                  leftIcon={<Envelope size={30} weight="light" />}
                 >
                   brunoslopes1994@gmail.com
                 </Button>

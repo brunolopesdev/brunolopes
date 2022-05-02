@@ -15,13 +15,13 @@ const Works = () => {
     <Layout>
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          Works
+          Projetos
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.3}>
             <WorkGridItem id="2b" title="2b" thumbnail={thumb2b}>
-              Web app de previsão do tempo.
+              Web weather app
             </WorkGridItem>
           </Section>
           <Section delay={0.3}>
@@ -30,18 +30,18 @@ const Works = () => {
               title="Pet Store"
               thumbnail={thumbPetStore}
             >
-              Projeto que simula uma e-commerce de Pet Shop.
+              Pet Store homepage
             </WorkGridItem>
           </Section>
           <Section delay={0.4}>
             <WorkGridItem id="avanti" title="Avanti" thumbnail={thumbEcommerce}>
-              Projeto que simula uma e-commerce de roupas femininas.
+              female online store with add to cart functionality
             </WorkGridItem>
           </Section>
           <Section delay={0.4}>
             <WorkGridItem id="omnix" title="Omnix" thumbnail={thumbOmnix}>
-              Projeto com consulta de CEP para mostrar disponibilidade de
-              produtos para o cliente.
+              Project with postal code query to show availability of products
+              for the customer.
             </WorkGridItem>
           </Section>
           <Section delay={0.4}>
@@ -50,7 +50,7 @@ const Works = () => {
               title="Private Code"
               thumbnail={thumbPrivate}
             >
-              Projeto de website para escola de cursos pré-vestibular.
+              Website page for pre-university courses school.
             </WorkGridItem>
           </Section>
           <Section delay={0.4}>
@@ -59,8 +59,8 @@ const Works = () => {
               title="Venture Labs"
               thumbnail={thumbVenture}
             >
-              Projeto de website para realizar cadastro e listar usuarios,
-              utilizando um formulário com multiplos passos.
+              Website page to register and list users, using a form with
+              multiple steps.
             </WorkGridItem>
           </Section>
           <Section delay={0.4}>
