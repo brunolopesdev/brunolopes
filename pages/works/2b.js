@@ -12,12 +12,12 @@ const Work = () => {
           2b <Badge>2021</Badge>
         </Title>
         <P>
-          Web app de previsão do tempo, que recebe um CEP ou nome da
-          cidade/estado/país e retorna as condições de tempo atuais.
+          Weather web app, receives a postal code or city/country name and
+          returns the weather conditions.
         </P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Plataforma</Meta>
+            <Meta>Platform</Meta>
             <span>Web</span>
           </ListItem>
           <ListItem>

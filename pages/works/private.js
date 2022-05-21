@@ -11,10 +11,10 @@ const Work = () => {
         <Title>
           Private-code <Badge>2021</Badge>
         </Title>
-        <P>Website para escola pré-vestibular.</P>
+        <P>Website page for pre-university courses school.</P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Plataforma</Meta>
+            <Meta>Platform</Meta>
             <span>Web</span>
           </ListItem>
           <ListItem>

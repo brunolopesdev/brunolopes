@@ -12,12 +12,12 @@ const Work = () => {
           Omnix <Badge>2021</Badge>
         </Title>
         <P>
-          Website que simula uma página para venda de planos, recebe o CEP do
-          cliente e mostra os planos/produtos disponíveis.
+          Project with postal code query to show availability of products for
+          the customer.
         </P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Plataforma</Meta>
+            <Meta>Platform</Meta>
             <span>Web</span>
           </ListItem>
           <ListItem>

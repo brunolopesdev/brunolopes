@@ -11,10 +11,10 @@ const Work = () => {
         <Title>
           Avanti E-commerce <Badge>2021</Badge>
         </Title>
-        <P>Website que simula um e-commerce voltado para moda feminina.</P>
+        <P>Simulation of a female clothing ecommerce.</P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Plataforma</Meta>
+            <Meta>Platform</Meta>
             <span>Web</span>
           </ListItem>
           <ListItem>
@@ -35,7 +35,6 @@ const Work = () => {
             </Link>
           </ListItem>
         </List>
-
         <WorkImage src="/images/avanti.png" alt="Projeto Avanti" />
       </Container>
     </Layout>
