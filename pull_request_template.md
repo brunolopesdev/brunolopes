@@ -7,6 +7,7 @@ Inclua um resumo da alteração e qual problema foi corrigido. Inclua também mo
 - [ ] Bug fix
 - [ ] New feature
 - [ ] Hotfix
+- [ ] 
 
 # Evidências
 
