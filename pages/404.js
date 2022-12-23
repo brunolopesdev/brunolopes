@@ -12,12 +12,12 @@ const NotFound = () => {
   return (
     <Container>
       <Heading as="h1">Not Found</Heading>
-      <Text>A página que você está procurando não foi encontrada.</Text>
+      <Text>The page you are looking for was not found.</Text>
       <Divider my={6} />
 
       <Box my={6} align="center">
         <NextLink href="/">
-          <Button colorScheme="teal">Retornar a página principal</Button>
+          <Button colorScheme="teal">Return to home page</Button>
         </NextLink>
       </Box>
     </Container>

@@ -29,14 +29,14 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="http://omnix.vercel.app/">
+            <Link href="http://omnix.vercel.app/" target="_blank">
               http://omnix.vercel.app/
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Github</Meta>
-            <Link href="https://github.com/brunolopesdev/omnix">
+            <Link href="https://github.com/brunolopesdev/omnix" target="_blank">
               brunolopesdev/omnix <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

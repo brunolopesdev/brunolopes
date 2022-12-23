@@ -23,13 +23,13 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="http://seri-e.vercel.app/">
+            <Link href="http://seri-e.vercel.app/" target="_blank">
               http://seri-e.vercel.app/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Github</Meta>
-            <Link href="https://github.com/brunolopesdev/SERI.E">
+            <Link href="https://github.com/brunolopesdev/SERI.E" target="_blank">
               brunolopesdev/petStore <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

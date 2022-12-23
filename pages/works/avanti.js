@@ -23,14 +23,14 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://avanti-challenge.herokuapp.com/">
+            <Link href="https://avanti-challenge.herokuapp.com/" target="_blank">
               https://avanti-challenge.herokuapp.com/
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Github</Meta>
-            <Link href="https://github.com/brunolopesdev/avanti-challenge">
+            <Link href="https://github.com/brunolopesdev/avanti-challenge" target="_blank">
               brunolopesdev/avanti-ecommerce <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

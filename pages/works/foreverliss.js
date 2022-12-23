@@ -9,36 +9,39 @@ const Work = () => {
     <Layout title="2b">
       <Container>
         <Title>
-          2b <Badge>2021</Badge>
+          Forever Liss <Badge>2022</Badge>
         </Title>
         <P>
-          Weather web app, receives a postal code or city/country name and
-          returns the weather conditions.
+        E-commerce for the sale of beauty products such as shampoo, masks, skin care and others..
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Web</span>
+            <span>Web - VTEX</span>
+          </ListItem>
+          <ListItem>
+            <Meta>My role</Meta>
+            <span>Development of new features, maintenance of existing features, code review and others.</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React, Html, Sass, Javascript, Axios</span>
+            <span>React, Html, Sass, Javascript, Axios, VTEX</span>
           </ListItem>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://2b-three.vercel.app/" target="_blank">
-              https://2b-three.vercel.app/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://www.foreverliss.com.br/" target="_blank">
+              https://www.foreverliss.com.br/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Github</Meta>
-            <Link href="https://github.com/brunolopesdev/2b" target="_blank">
-              brunolopesdev/2b <ExternalLinkIcon mx="2px" />
+            <Link href="https://github.com/brunolopesdev" target="_blank">
+              The github for this organization is private. <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
         </List>
 
-        <WorkImage src="/images/2b.png" alt="Projeto 2b" />
+        <WorkImage src="/images/thumbForever.png" alt="Forever Liss" />
       </Container>
     </Layout>
   )
