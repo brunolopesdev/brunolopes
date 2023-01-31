@@ -9,7 +9,7 @@ const Work = () => {
     <Layout title="2b">
       <Container>
         <Title>
-          2b <Badge>2021</Badge>
+          2b <Badge>2023</Badge>
         </Title>
         <P>
           Weather web app, receives a postal code or city/country name and

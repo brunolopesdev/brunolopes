@@ -1,13 +1,14 @@
 on:
   pull_request:
     types: [opened, synchronize]
-
+permissions:
+  pull-requests: write
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
     name: ChatGPT explain code
     steps:
-      - name: ChatGTP explain code
+      - name: ChatGTP review code
         uses: cirolini/chatgpt-github-actions@v1.2
         with:
           openai_api_key: ${{ secrets.openai_api_key }}
