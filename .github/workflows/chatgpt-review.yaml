@@ -1,0 +1,2 @@
+- name: Code Review with ChatGPT
+  uses: cirolini/chatgpt-github-actions@v1.2
