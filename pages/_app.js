@@ -5,6 +5,11 @@ import Fonts from '../components/fonts'
 import { AnimatePresence } from 'framer-motion'
 
 const Website = ({ Component, pageProps, router }) => {
+  
+  const sum = () => {
+    return 8 + 4; 
+  }
+  
   return (
     <ChakraProvider theme={theme}>
       <Fonts />
